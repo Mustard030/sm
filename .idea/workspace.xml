@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="582da8aa-470c-4504-aef3-f6f4ca6bdbcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test02/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test02/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sm/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sm/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test01/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/test01/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/test01/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="582da8aa-470c-4504-aef3-f6f4ca6bdbcd" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +224,7 @@
       <workItem from="1603461412252" duration="736000" />
       <workItem from="1603519766840" duration="95000" />
       <workItem from="1603519879082" duration="6166000" />
-      <workItem from="1603526590922" duration="5502000" />
+      <workItem from="1603526590922" duration="5860000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1603520933070</created>
@@ -388,11 +380,18 @@
       <option name="project" value="LOCAL" />
       <updated>1603531866341</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="staticfiles">
+      <created>1603562788662</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1603562788662</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12499000" />
+    <option name="totallyTimeSpent" value="12857000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
