@@ -16,9 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from test01 import views
+from test02 import views
 
 urlpatterns = [
     path('index', views.index, name='index'),
-    path('timer/', views.timer, name='timer'),
+    # path('timer/', views.timer, name='timer'),
 ]
