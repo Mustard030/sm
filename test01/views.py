@@ -15,5 +15,5 @@ def login(request):
         return render(request, 'login.html')
     else:
         print(request.POST)
-        return HttpResponse("ok")
+        return HttpResponse("OK")
 
