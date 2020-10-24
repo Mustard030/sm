@@ -22,5 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # path('timer/', views.timer),
     path('login/', views.login, name='Login'),
-    re_path(r'^', include('test01.urls'))
+    re_path(r'^test01/', include('test01.urls', namespace='test01')),
+    re_path(r'^test02/', include('test02.urls', namespace='test02')),
 ]
