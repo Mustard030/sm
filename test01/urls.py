@@ -19,7 +19,6 @@ from django.urls import path, re_path, include
 from test01 import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    # path('timer/', views.timer),
-    re_path(r'^', include('test01.urls'))
+
+    path('timer/', views.timer),
 ]
