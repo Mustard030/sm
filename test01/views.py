@@ -7,7 +7,7 @@ def timer(requset):
     import time
     # context = dict()
     # context['timer'] = time.time()
-    i = 10
+    i = 20
     return render(requset, 'timer.html', locals())
 
 def index(request):
