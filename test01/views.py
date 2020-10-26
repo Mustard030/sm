@@ -5,9 +5,10 @@ from django.urls import reverse
 # Create your views here.
 def timer(requset):
     import time
-    context = dict()
-    context['timer'] = time.time()
-    return render(requset, 'timer.html', context=context)
+    # context = dict()
+    # context['timer'] = time.time()
+    i = 10
+    return render(requset, 'timer.html', locals())
 
 def index(request):
     return HttpResponse(reverse("test01:index"))
