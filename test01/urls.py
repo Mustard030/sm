@@ -19,6 +19,6 @@ from django.urls import path
 from test01 import views
 
 urlpatterns = [
-    path('index', views.index, name='index'),
+    path('index/', views.index, name='index'),
     path('timer/', views.timer, name='timer'),
 ]
