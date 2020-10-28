@@ -21,4 +21,9 @@ from test01 import views
 urlpatterns = [
     path('index/', views.index, name='index'),
     path('timer/', views.timer, name='timer'),
+    path('orm/', views.orm, name='orm'),
+    path('orm_add/', views.orm_add, name='orm_add'),
+    path('orm_delete/', views.orm_delete, name='orm_delete'),
+    path('orm_modify/', views.orm_modify, name='orm_modify'),
+    path('orm_search/', views.orm_search, name='orm_search'),
 ]
