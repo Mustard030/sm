@@ -6,7 +6,7 @@
 </head>
 <body>
 <h5>添加</h5>
-<form action="http://81.71.72.180/test01/orm_add/" method="post">
+<form action="{% url 'test01:orm_add' %}" method="post">
     {% csrf_token %}
     书名 <input type="text" name="title">&nbsp;
     价格 <input type="text" name="price">&nbsp;

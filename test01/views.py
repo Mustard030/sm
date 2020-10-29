@@ -29,7 +29,7 @@ def login(request):
 
 def orm(request):
     if request.method == 'GET':
-        return render(request, 'orm.html')
+        return render(request, 'test01/orm.html')
     else:
         return HttpResponse("OK")
 
