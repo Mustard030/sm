@@ -45,7 +45,7 @@ def orm_add(request):
         # 方法2：创建对象再调用对象的save()
         book_obj = Book(title=title, price=price, publish=publish, pub_date=pub_date)
         book_obj.save()
-        return HttpResponse("success")
+        return HttpResponse("success add")
     else:
         return HttpResponse("非法添加")
 
