@@ -1,12 +1,14 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>时间戳</title>
+    <link href="{% static 'css/bootstrap.css' %}">
 </head>
 <body>
 <h3>time:{{ timer }}</h3>
-<img src="static/33.jpg" width="300px">
+<img src="{% static '33.jpg' %}" width="300px">
 <br>
 {% load my_tags %}
 <p>{{ i|multi_filter:20 }}</p>
