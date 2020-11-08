@@ -16,13 +16,22 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="582da8aa-470c-4504-aef3-f6f4ca6bdbcd" name="Default Changelist" comment="staticfiles">
-      <change beforePath="$PROJECT_DIR$/.idea/sm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/timer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/timer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sm/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sm/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sm/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sm/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +63,16 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -117,7 +129,13 @@
       <workItem from="1603870976352" duration="2969000" />
       <workItem from="1603893602700" duration="1274000" />
       <workItem from="1603960797764" duration="2348000" />
-      <workItem from="1604379725143" duration="1905000" />
+      <workItem from="1604379725143" duration="4823000" />
+      <workItem from="1604579714754" duration="128000" />
+      <workItem from="1604657514576" duration="1269000" />
+      <workItem from="1604686888531" duration="17000" />
+      <workItem from="1604738389003" duration="626000" />
+      <workItem from="1604739026955" duration="1670000" />
+      <workItem from="1604831226154" duration="63000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1603520933070</created>
@@ -378,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604384148151</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="staticfiles">
+      <created>1604384771535</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1604384771535</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,7 +414,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -411,6 +448,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="staticfiles" />
     <option name="LAST_COMMIT_MESSAGE" value="staticfiles" />
@@ -420,13 +458,17 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1603893673414" />
-    <state x="422" y="54" key="SettingsEditor" timestamp="1604384753543">
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1604686903978">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="422" y="54" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1604384753543" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1604384154618">
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1604686903978" />
+    <state x="195" y="64" key="SettingsEditor" timestamp="1604738998701">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1604384154618" />
+    <state x="195" y="64" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1604738998701" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1604384773133">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1604384773133" />
   </component>
 </project>
