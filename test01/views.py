@@ -18,7 +18,7 @@ def index(request):
 
 
 def login(request):
-    print(reverse('test01:Log'))
+    # print(reverse('test01:Log'))
     if request.method == 'GET':
         print(request.GET)
         return render(request, 'login.html')
