@@ -16,12 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, re_path, include
 
-from test01 import views
+import test01.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     # path('timer/', views.timer),
-    path('login/', views.login, name='Login'),
+    path('login/', test01.views.login, name='Login'),
     re_path(r'^register/', include(('register.urls', 'register'))),
     re_path(r'^test01/', include(('test01.urls', 'test01'))),
     re_path(r'^test02/', include(('test02.urls', 'test02'))),
